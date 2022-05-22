@@ -1,0 +1,75 @@
+{
+  "name": "news-aggregator",
+  "version": "1.0.0",
+  "description": "This a React/TypeScript application that uses the NewsAPI to show news feed from around the world.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.prod.js NO)DE_ENV=production",
+    "start:dev": "npm run build:dev && webpack-dev-server --mode development --open --hot --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avuidrauxs/news-aggregator-react-typescript-app.git"
+  },
+  "keywords": [
+    "newsapi",
+    "typescript",
+    "react"
+  ],
+  "author": "Audax Anchirinah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Avuidrauxs/news-aggregator-react-typescript-app/issues"
+  },
+  "homepage": "https://github.com/Avuidrauxs/news-aggregator-react-typescript-app#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/axios": "^0.14.0",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.0.5",
+    "react-hot-loader": "^4.12.21",
+    "sass-loader": "^8.0.2",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.2.0",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@types/isomorphic-fetch": "0.0.35",
+    "axios": "^0.19.2",
+    "codelyzer": "^5.2.2",
+    "dotenv-webpack": "^1.7.0",
+    "dotnet": "^1.1.4",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^2.2.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.4.0",
+    "react-loader": "^2.4.7",
+    "react-transition-group": "^4.4.1",
+    "tslint": "^6.1.2"
+  }
+}
